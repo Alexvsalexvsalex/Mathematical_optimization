@@ -88,7 +88,7 @@ def sample_2():
 
 
 def sample_3():
-    print("Sample 1")
+    print("Sample 3")
 
     func = lambda x: (x + 5) ** 4
     print("Function: [(x+5)^4]")
