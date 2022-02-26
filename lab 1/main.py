@@ -134,7 +134,7 @@ def sample_3_2():
     print("Function: [(x-1)^2+(x+y)^2+2]")
 
     derivative = lambda xs: np.array([2 * (xs[0] - 1) + 2 * (xs[0] + xs[1]), 2 * (xs[0] + xs[1])])
-    print("Derivative function: [2*(x+3), 2*(y-5)]")
+    print("Derivative function: [2*(x-1)+2*(x+y), 2*(x+y)]")
 
     start_point = np.array([10.0, -3.0])
     print(f"Start point: {start_point}")
